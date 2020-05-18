@@ -1,0 +1,337 @@
+.logo {
+  width: 60vw;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: fixed;
+  }
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 5px;
+ 
+}
+
+@media (max-width: 650px) {
+  .logo > img {
+    margin: 0 auto;
+  }
+}
+
+
+#signup {
+  height:100px;
+}
+
+h9 {
+  padding: 10px 30px 0px 0px;
+  font-size:13px;
+  font-family:strong;
+  color:white;
+}
+
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width:calc(100%  / 4);
+  margin:20px;
+  border:2.5px solid #000;
+  border-radius: 10px;
+}
+
+.product > .level {
+    
+  background-color: rgba(0.6, 0, 0, 0.5);
+  color: white;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 650;
+}
+
+
+.product > h2 {
+  margin-top: 0 auto;
+ 
+}
+
+
+.product > ol {
+  margin:0 auto;
+   
+}
+
+.product > ol > li {
+  padding: 15px 45px 15px 10px;
+}
+
+.product > ol > li:hover {
+  color: gold;
+} 
+  
+
+
+
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: white;
+  font-weight: 400;
+  border-radius:10px;
+}
+
+.product > button:hover {
+  background-color: red;
+  transition: background-color 1s;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+#video {
+  
+  text-align:center;
+}
+
+#how-it-works {
+
+  height:150px;
+}
+
+
+
+
+.desc {
+      padding-left:30px;
+  padding-right:30px;
+  margin-bottom:10px;
+    text-align:center;
+       padding:0 auto;
+    margin:0 auto;
+  max-width:100%;
+ 
+}
+
+
+.btn {
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px white solid;
+  background: transparent;
+  cursor: pointer;
+}
+
+
+
+#signup {
+  text-transform: uppercase;
+  max-width:100%;
+ margin:200px 200px 200px 200px; 
+ border-radius:30px;
+  background-color: rgba(0.6, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+  margin-top: 150px;
+}
+
+#signup > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+#signup input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px
+
+}
+
+#signup input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+margin:15px 0px;
+  border: 0;
+  color:white;
+
+    
+}
+#signup input[type="submit"]:hover {
+  background-color: red;
+  transition: background-color:0.1s;
+  border-radius: 300px;
+    transition: background-color 2s;
+}
+
+@media (max-width: 650px) {
+  #signup {
+    margin-top: 12px;
+    margin-left:1px;
+    margin-right:1px;
+  }
+}
+
+
+body::before{ 
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+background-image: linear-gradient(
+      115deg,
+     rgba(0.6, 1, 1, 0.4),
+      rgba(0.6, 1, 1, 0.5)
+ ),
+    url(../images/gymBG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 600px) {
+#how-it-works > iframe {
+  width: 100%;
+height:10%;
+  }
+
+}
+img {
+  max-width:100%;
+}
+
+
+#page-wrapper {
+ max-width:100%;
+  position:absolute;
+  color:white;
+
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+header {
+  padding:20px 20px 20px 20px;
+  background-color:rgba(0.6, 0, 0, 0.3);
+  position:fixed;
+  width:100%;
+  
+}
+
+@media (max-width: 600px) {
+  header {
+
+ text-align:center;
+  }
+}
+
+nav {
+  font-weight: 400;
+  font-size:0px;
+
+}
+
+.nav-link {
+  font-size:30px;
+  color:white;
+}
+
+@media (max-width: 650px) {
+.nav-link {
+  font-size:15px;
+}
+}
+
+@media (max-width: 650px) {
+  nav {
+    width: 100%;
+     text-align:center;
+font-size:0px;
+  }
+}
+  
+  nav li {
+    padding-bottom: 2px;
+}
+
+
+nav > ul {
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-around;
+}
+  
+
+@media (max-width: 650px) {
+  nav > ul {
+ flex-direction: column;
+  }
+}
